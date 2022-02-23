@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/fetch_film"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch Films!"/>
+
+    <Button
+        android:id="@+id/film_goto_planet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Planets"/>
+
+    <Button
+        android:id="@+id/film_goto_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="People"/>
+
+    <TextView
+        android:id="@+id/film_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Film output here!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>
